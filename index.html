@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c2d1b">
+  <title>FORMA — мебель для жизни</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>♧ Seasonal drops</span><span>♧ Secure checkout</span><span>♧ Sustainably made</span><a href="#footer">☏ Support</a></div>
+  <header class="site-header">
+    <button class="mobile-menu icon-button" id="mobileMenu" aria-label="Открыть меню">☰</button>
+    <nav class="main-nav" id="mainNav"><a href="index.html" class="nav-active">Магазин</a><a href="#new">Новинки</a><a href="#popular">Бестселлеры</a><a href="catalog.html">Коллекции⌄</a></nav>
+    <a class="wordmark" href="index.html">FORMA<span>.</span></a>
+    <div class="header-actions"><button class="icon-button" id="accountBtn" aria-label="Аккаунт">♙</button><button class="icon-button" id="searchBtn" aria-label="Поиск">⌕</button><button class="icon-button bag-button" id="cartBtn" aria-label="Корзина">🛒<b id="cartCount">0</b></button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=85" alt="Уютная современная гостиная">
+      <div class="hero-shade"></div>
+      <div class="hero-content"><p class="eyebrow light">КОЛЛЕКЦИЯ 2026</p><h1>Nordic calm</h1><p>Мягкие линии, натуральное дерево и спокойные оттенки — пространство, в котором легко дышать.</p><a class="button button-light" href="catalog.html">Исследовать коллекцию <span>↗</span></a></div>
+      <div class="hero-pagination"><span>01</span><i></i><span>03</span><button aria-label="Следующий слайд" id="nextSlide">→</button></div>
+    </section>
+    <section class="trust-strip">
+      <article><span class="trust-icon">☆</span><h3>Клиенты на первом месте</h3><p>98% покупателей рекомендуют нас друзьям. Заботимся о каждой детали.</p></article>
+      <article><span class="trust-icon">▣</span><h3>Более 12 лет опыта</h3><p>Подбираем материалы и решения, которые служат годами.</p></article>
+      <article><span class="trust-icon">✧</span><h3>Продуманный дизайн</h3><p>Функциональность, честные материалы и вне-временная эстетика.</p></article>
+    </section>
+    <section class="section" id="new"><div class="section-heading"><div><p class="eyebrow">СОЗДАНО ДЛЯ ВАШЕГО ДОМА</p><h2>Комфорт в каждой детали</h2></div><a class="text-link" href="catalog.html">Вся коллекция ↗</a></div><div class="category-grid">
+      <a class="category-card category-large" href="catalog.html?category=Диваны"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80" alt="Диван"><span>Диваны <b>↗</b></span></a>
+      <a class="category-card" href="catalog.html?category=Кресла"><img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=800&q=80" alt="Кресло"><span>Кресла <b>↗</b></span></a>
+      <a class="category-card" href="catalog.html?category=Столы"><img src="https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=800&q=80" alt="Стол"><span>Столы <b>↗</b></span></a>
+      <a class="category-card" href="catalog.html?category=Освещение"><img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80" alt="Освещение"><span>Освещение <b>↗</b></span></a>
+    </div></section>
+    <section class="section soft-section" id="popular"><div class="section-heading"><div><p class="eyebrow">ВЫБОР ПОКУПАТЕЛЕЙ</p><h2>Бестселлеры</h2></div><a class="text-link" href="catalog.html">Смотреть все ↗</a></div><div class="product-grid" id="homeProducts"></div></section>
+    <section class="editorial"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85" alt="Спокойный интерьер в натуральных тонах"><div><p class="eyebrow light">МЕНЬШЕ, НО ЛУЧШЕ</p><h2>Вещи, которые<br>остаются с вами.</h2><p>Создаём мебель вне быстротечных трендов: честные материалы, продуманные формы и качество на долгие годы.</p><a class="button button-light" href="catalog.html">Открыть каталог ↗</a></div></section>
+    <section class="newsletter"><p class="eyebrow">ПИСЬМА О ДОМЕ</p><h2>Оставайтесь в курсе</h2><p>Новинки, идеи для интерьера и специальные предложения — без лишнего шума.</p><form id="newsletterForm"><input type="email" required placeholder="Ваш email" aria-label="Ваш email"><button class="button button-dark">Подписаться ↗</button></form><small>Подписываясь, вы соглашаетесь с политикой конфиденциальности.</small></section>
+  </main>
+  <footer id="footer"><div class="footer-brand"><a class="wordmark" href="index.html">FORMA<span>.</span></a><p>Мебель для жизни<br>и пространства для себя.</p></div><div><h4>Покупателям</h4><a href="catalog.html">Каталог</a><a href="#">Доставка и оплата</a><a href="#">Возврат</a></div><div><h4>О компании</h4><a href="#">Наша история</a><a href="#">Материалы</a><a href="#">Контакты</a></div><div><h4>Связаться</h4><a href="mailto:hello@forma.ru">hello@forma.ru</a><a href="tel:+74951234567">+7 (495) 123-45-67</a><p>Пн–Сб, 10:00–19:00</p></div><div class="footer-bottom">© 2026 FORMA <span>Создано с вниманием к деталям.</span><span>Instagram&nbsp;&nbsp; Pinterest</span></div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <div class="overlay" id="overlay"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Корзина"><div class="drawer-heading"><h2>Ваша корзина</h2><button class="icon-button" id="closeCart" aria-label="Закрыть">×</button></div><div id="cartItems"></div><div class="cart-total"><span>Итого</span><strong id="cartTotal">0 ₽</strong><button class="button button-dark" id="checkoutBtn">Перейти к оформлению ↗</button></div></aside>
+  <dialog id="searchDialog"><form method="dialog" class="search-form"><input id="globalSearch" placeholder="Найти мебель..." aria-label="Поиск по каталогу"><button class="button button-dark" id="runSearch">Найти</button><button class="icon-button" aria-label="Закрыть">×</button></form></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
